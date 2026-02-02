@@ -1,1 +1,1 @@
-### Simply run this project by using the run button in your IDE.
+### Simply run this project by using the run button in your IntelliJ IDE.
