@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Confirmation</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+    <div class="container">
+        <h2>Registration Confirmation</h2>
+        <p><strong>Name:</strong><span th:text="${student.name}"></span></p>
+        <p><strong>Email:</strong><span th:text="${student.email}"></span></p>
+        <p><strong>Course:</strong><span th:text="${student.course}"></span></p>
+        <p><strong>Level:</strong><span th:text="${student.level}"></span></p>
+
+        <a th:href="@{/register}">Go Back to Registration</a>
+    </div>
+</body>
+</html>
